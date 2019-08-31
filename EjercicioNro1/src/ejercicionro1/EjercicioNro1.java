@@ -25,6 +25,7 @@ public class EjercicioNro1 {
     public static void main(String[] args) {
         //Creación de un objeto Scanner, que permite ingresar información por consola
         Scanner entradaEscaner = new Scanner(System.in);
+        
 
         // PARTE UNO
         System.out.print("********* Presentación **********" + "\n");
@@ -76,6 +77,7 @@ public class EjercicioNro1 {
         double dividir = dividirNumeroF(numeroUno, numeroDos);
         //Procedimiento para imprimir 
         imprimirResultados("Dividir Función: ", dividir);
+        
 
         //PARTE DOS 
         Carro miPrimerCarro = new Carro("Gris", 4, 2009, "KIA");
